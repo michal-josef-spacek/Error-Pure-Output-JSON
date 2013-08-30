@@ -1,0 +1,47 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.70.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 96b01767d5a32adad60c278dae006c7fcabb7592 Changes
+SHA1 49ca61d3424c8b989fb132188cdd875bbdbc7647 JSON.pm
+SHA1 2039384c67092a5dcb07a7ac68cec34f42eadf9a LICENSE
+SHA1 4d791d4275ea5776d1f8c1933a609d01dcfce575 MANIFEST
+SHA1 70475ae8eb0492ced83123245f2a6c188a66e38a META.yml
+SHA1 9e5bcfc41e105aa1eacc0025ff6286da536bb903 Makefile.PL
+SHA1 426de096d4e6c3b3a40558ab419cde649c62de2a examples/ex1.pl
+SHA1 8d9de5ee12ba026ac784fd0a20adb28bfee1c146 examples/ex2.pl
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 03f28246abacd07dffabf84ac6945489b4b101f4 t/Error-Pure-Output-JSON/00-use.t
+SHA1 2c1874a3b1fe36ff525880b45a5178172fde3470 t/Error-Pure-Output-JSON/01-version.t
+SHA1 f5a460894fe66b6cfa2c539c4cc42adf8b96d805 t/Error-Pure-Output-JSON/02-pod_coverage.t
+SHA1 1b4dbdcadec7bf4b9173fc8d0dfd43f89cc4e562 t/Error-Pure-Output-JSON/03-pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQEcBAEBAgAGBQJSIK38AAoJEAwa+cf4dLBae0EH/3RJM6ZS3EBF2zH9ZPZhcENu
+UBTI914IUWWj/7v7vZXCN8Q1u6Zq6L7C55svVicpAWOSUe7zh7GNYgBaMwYoGsnR
+WtYoq8u9SFUejwJsrPMpZEjAx+X76wU+15xoEeHbZAe22anecXvksVJ2Xgurkc1l
+LYmdtElKtjcXgu3h9wfm2HSbK+6xawzsYwNAMuVtSh/MXcsjvo+whXRWS1+gRJ+M
+tp/+HACE5ugj9oQNO3W14roBl7RSMj/hPPhduJ4zMfqsOe3D7pI2oJW7zd82Ybs0
+MZIcjH7aSbi5hqZfJ5fVJg7caXfd147Y879M6Caw0m3NSd/3dLKOU4BVG7fTwGM=
+=N8vb
+-----END PGP SIGNATURE-----
