@@ -20,13 +20,13 @@ our $VERSION = 0.01;
 
 # JSON print of backtrace.
 sub err_json {
-	my @errors = @_;
+	my $struct_r = shift;
 	my $ret_json;
 	my $json = JSON->new;
 	if ($PRETTY) {
-		$ret_json = $json->pretty->encode(\@errors);
+		$ret_json = $json->pretty->encode($struct_r);
 	} else {
-		$ret_json = $json->encode(\@errors);
+		$ret_json = $json->encode($struct_r);
 	}
 	return $ret_json;
 }
@@ -112,7 +112,7 @@ Error::Pure::Output::JSON - Output JSON subroutines for Error::Pure.
  print err_json($err_hr);
 
  # Output:
- # [{"msg":["FOO","KEY","VALUE"],"stack":[{"sub":"err","prog":"script.pl","args":"(2)","class":"main","line":1},{"sub":"eval {...}","prog":"script.pl","args":"","class":"main","line":20}]}]
+ # {"msg":["FOO","KEY","VALUE"],"stack":[{"sub":"err","prog":"script.pl","args":"(2)","class":"main","line":1},{"sub":"eval {...}","prog":"script.pl","args":"","class":"main","line":20}]}
 
 =head1 EXAMPLE2
 
@@ -154,31 +154,29 @@ Error::Pure::Output::JSON - Output JSON subroutines for Error::Pure.
  print err_json($err_hr);
 
  # Output:
- # [
- #    {
- #       "msg" : [
- #          "FOO",
- #          "KEY",
- #          "VALUE"
- #       ],
- #       "stack" : [
- #          {
- #             "sub" : "err",
- #             "prog" : "script.pl",
- #             "args" : "(2)",
- #             "class" : "main",
- #             "line" : 1
- #          },
- #          {
- #             "sub" : "eval {...}",
- #             "prog" : "script.pl",
- #             "args" : "",
- #             "class" : "main",
- #             "line" : 20
- #          }
- #       ]
- #    }
- # ]
+ # {
+ #    "msg" : [
+ #       "FOO",
+ #       "KEY",
+ #       "VALUE"
+ #    ],
+ #    "stack" : [
+ #       {
+ #          "sub" : "err",
+ #          "prog" : "script.pl",
+ #          "args" : "(2)",
+ #          "class" : "main",
+ #          "line" : 1
+ #       },
+ #       {
+ #          "sub" : "eval {...}",
+ #          "prog" : "script.pl",
+ #          "args" : "",
+ #          "class" : "main",
+ #          "line" : 20
+ #       }
+ #    ]
+ # }
 
 =head1 DEPENDENCIES
 

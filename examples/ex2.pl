@@ -38,28 +38,26 @@ my $err_hr = {
 print err_json($err_hr);
 
 # Output:
-# [
-#    {
-#       "msg" : [
-#          "FOO",
-#          "KEY",
-#          "VALUE"
-#       ],
-#       "stack" : [
-#          {
-#             "sub" : "err",
-#             "prog" : "script.pl",
-#             "args" : "(2)",
-#             "class" : "main",
-#             "line" : 1
-#          },
-#          {
-#             "sub" : "eval {...}",
-#             "prog" : "script.pl",
-#             "args" : "",
-#             "class" : "main",
-#             "line" : 20
-#          }
-#       ]
-#    }
-# ]
+# {
+#    "msg" : [
+#       "FOO",
+#       "KEY",
+#       "VALUE"
+#    ],
+#    "stack" : [
+#       {
+#          "sub" : "err",
+#          "prog" : "script.pl",
+#          "args" : "(2)",
+#          "class" : "main",
+#          "line" : 1
+#       },
+#       {
+#          "sub" : "eval {...}",
+#          "prog" : "script.pl",
+#          "args" : "",
+#          "class" : "main",
+#          "line" : 20
+#       }
+#    ]
+# }
