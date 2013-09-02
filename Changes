@@ -1,10 +1,12 @@
+Revision history for perl module Error::Pure::Output::JSON
+
 0.04
 
-0.03 (September 2, 2013)
-- Add Exporter to dependencies.
+0.03 2013-09-02
+    - Add Exporter to dependencies.
 
-0.02 (August 31, 2013)
-- Add README file.
+0.02 2013-08-31
+    - Add README file.
 
-0.01 (August 30, 2013)
-- First version.
+0.01 2013-08-30
+    - First version.
