@@ -26,6 +26,7 @@ no_index:
     - inc
     - t
 requires:
+  Exporter: 0
   JSON: 0
   Readonly: 0
 resources:

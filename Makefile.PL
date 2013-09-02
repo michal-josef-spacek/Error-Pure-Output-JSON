@@ -10,6 +10,7 @@ abstract 'Output JSON subroutines for Error::Pure.';
 author 'Michal Špaček <skim@cpan.org>';
 license 'bsd';
 name 'Error-Pure-Output-JSON';
+requires 'Exporter' => 0;
 requires 'JSON' => 0;
 requires 'Readonly' => 0;
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
