@@ -1,13 +1,11 @@
-Revision history for perl module Error::Pure::Output::JSON
-
 0.04
-    - Reformatted Changes file as per CPAN::Changes::Spec.
+ - Reformatted Changes file as per CPAN::Changes::Spec.
 
 0.03 2013-09-02
-    - Add Exporter to dependencies.
+ - Add Exporter to dependencies.
 
 0.02 2013-08-31
-    - Add README file.
+ - Add README file.
 
 0.01 2013-08-30
-    - First version.
+ - First version.
