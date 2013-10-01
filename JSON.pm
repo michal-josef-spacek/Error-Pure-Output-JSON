@@ -52,7 +52,7 @@ Error::Pure::Output::JSON - Output JSON subroutines for Error::Pure.
 
 =over 8
 
-=item B<err_json(@errors)>
+=item C<err_json(@errors)>
 
  JSON print of backtrace.
  When is set global variable $PRETTY, print pretty output.
@@ -64,7 +64,7 @@ Error::Pure::Output::JSON - Output JSON subroutines for Error::Pure.
 
 =over 8
 
-=item B<$PRETTY>
+=item C<$PRETTY>
 
  JSON pretty output flag. Possible values are 0 or 1.
  Default value is 0.
