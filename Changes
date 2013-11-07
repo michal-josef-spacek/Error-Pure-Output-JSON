@@ -1,3 +1,5 @@
+0.06
+
 0.05 2013-11-07
  - Add minimal Perl version.
  - Rewrite B<> to C<> in doc for code.
