@@ -29,6 +29,7 @@ requires:
   Exporter: 0
   JSON: 0
   Readonly: 0
+  perl: 5.6.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Error-Pure-Output-JSON
   homepage: https://github.com/tupinek/Error-Pure-Output-JSON

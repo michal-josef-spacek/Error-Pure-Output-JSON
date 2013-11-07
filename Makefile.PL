@@ -13,6 +13,7 @@ name 'Error-Pure-Output-JSON';
 requires 'Exporter' => 0;
 requires 'JSON' => 0;
 requires 'Readonly' => 0;
+requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=Error-Pure-Output-JSON';
 resources 'homepage' => 'https://github.com/tupinek/Error-Pure-Output-JSON';
