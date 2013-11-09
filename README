@@ -6,7 +6,7 @@ SYNOPSIS
      print err_json(@errors);
 
 SUBROUTINES
-    err_json(@errors)
+    "err_json(@errors)"
              JSON print of backtrace.
              When is set global variable $PRETTY, print pretty output.
              Returns JSON serialization of backtrace.
