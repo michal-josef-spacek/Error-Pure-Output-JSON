@@ -1,4 +1,4 @@
-0.06
+0.06 2013-11-15
  - Add 'readme_from' directive to Makefile.PL.
  - Add dependency for JSON 2.50 as stable version.
 
