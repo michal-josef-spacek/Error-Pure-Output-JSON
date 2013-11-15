@@ -12,7 +12,7 @@ license 'bsd';
 name 'Error-Pure-Output-JSON';
 readme_from 'JSON.pm';
 requires 'Exporter' => 0;
-requires 'JSON' => 0;
+requires 'JSON' => 2.50;
 requires 'Readonly' => 0;
 requires 'perl' => '5.6.0';
 resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.

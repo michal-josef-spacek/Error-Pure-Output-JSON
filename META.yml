@@ -27,7 +27,7 @@ no_index:
     - t
 requires:
   Exporter: 0
-  JSON: 0
+  JSON: 2.5
   Readonly: 0
   perl: 5.6.0
 resources:
