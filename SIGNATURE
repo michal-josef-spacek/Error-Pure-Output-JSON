@@ -14,13 +14,13 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 ed08b169f6dcf125b3323db0bd93e0b47e362979 Changes
-SHA1 7fdc7e87b8c182962ea70976fe362318b3158e13 JSON.pm
+SHA1 b5fe56dfeea92fc1a13f6ac50574c6511a4f3a23 Changes
+SHA1 bdd97bac3561648f8401242bdda9f36d18ee9239 JSON.pm
 SHA1 2039384c67092a5dcb07a7ac68cec34f42eadf9a LICENSE
-SHA1 0a84f33460fd11123103ce50c56f180cbaf0445b MANIFEST
-SHA1 bff5d0a8149eea4c0a2b33da8a112b158d8416b8 META.yml
-SHA1 babe3665942cc788bc51ac51c7e8e789ace556d3 Makefile.PL
-SHA1 0c88dd29ab73f73dfae3a914281c0477833fb81a README
+SHA1 2461c91be9e4ab50e5ebfea216df39b0d0c3c67a MANIFEST
+SHA1 e670913b324a0f562beb41144976f4dc1ca9ce24 META.yml
+SHA1 6e37341097b4f718b3f25189d90e5a312e2e3503 Makefile.PL
+SHA1 053469d9bb12ab4640a4aa48b11a121c6afff1b4 README
 SHA1 426de096d4e6c3b3a40558ab419cde649c62de2a examples/ex1.pl
 SHA1 8d9de5ee12ba026ac784fd0a20adb28bfee1c146 examples/ex2.pl
 SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
@@ -29,20 +29,21 @@ SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
 SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
 SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
 SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
 SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
 SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
 SHA1 03f28246abacd07dffabf84ac6945489b4b101f4 t/Error-Pure-Output-JSON/00-use.t
-SHA1 2b8d02e7366cc0457bc3f71c71dbb9f34a2c8495 t/Error-Pure-Output-JSON/01-version.t
+SHA1 27d2bc166433a91834dd2000093fbbc47c68b314 t/Error-Pure-Output-JSON/01-version.t
 SHA1 f5a460894fe66b6cfa2c539c4cc42adf8b96d805 t/Error-Pure-Output-JSON/02-pod_coverage.t
 SHA1 1b4dbdcadec7bf4b9173fc8d0dfd43f89cc4e562 t/Error-Pure-Output-JSON/03-pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQEcBAEBAgAGBQJSe/FKAAoJEAwa+cf4dLBagXIH/0R89xAPVMFcQWlW8W6x7zrt
-bR3YnFuWxuVB94xzZUe6RzwiKpXaFNZksXPO1RMMKlRZuqOU4XCboV6H7ydb1NUt
-SM1Z9EqRZaIfJ+LxYdbExDEK/Fn+4baxlqdM9Tj50A6jGml4BYPzmRAsgXbk1g6h
-Aw4X20EnvoQnFj9ikZsEoz75RlQjcjcLgEm+3oeN0iOOYiOjBA9m/X3mIRB2KpkB
-kp3rPnNFGB9goz1G70CQp2aSSdTov3ujvckuvjL+rn650rjtBT5Aa0aDdCxesKoi
-ncga3lNJKc4WsdHPmgrDV1FbbDvk3XBEChzW8SmgzSLUOLAKzZ85FBJLfokgfgY=
-=4Wvp
+iQEcBAEBAgAGBQJSheR6AAoJEAwa+cf4dLBa6WAIAJImROOXFH6MzLzackUcWvQQ
+kt0VwySoCqxP4enG0aQYsShja9M3YoN6ruDAqgkGqNR6oTR2LYB7fMFKCD2o+c/5
+8VFkM0R8Pkut9gdIo7ya8yQWbIlebO5VXgnKrcolw5/pZ20TKNp57RtYoglOn/YD
+v8hcbeG9lMVB5gvwR6Re6cfPecFjwawlcRumYgSOT6bgnN4XE/QjOuwcISl5/DIl
+nCN3z4dUofHrZC+GR5bDSSN8DrLPnNti9KVzYt3eiS0aA/u7izdv2JdRrX/yOs+7
+eilwklZzLjKCtkj0PIqulXKvdUivcndyinKvKRURzT3lYmXmlUviB5SovZKsHms=
+=EkYB
 -----END PGP SIGNATURE-----
