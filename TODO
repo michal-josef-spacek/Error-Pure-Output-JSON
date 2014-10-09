@@ -1,7 +1,8 @@
 TODO
 ====
 2. Resit chyby v JSON encode.
-3.
+3. err_json by mela brat jako argument pole error struktur.
+4.
 
 Applied
 =======
