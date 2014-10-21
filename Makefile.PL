@@ -7,7 +7,7 @@ use inc::Module::Install;
 
 # Definition.
 abstract 'Output JSON subroutines for Error::Pure.';
-author 'Michal Špaček <skim@cpan.org>';
+author 'Michal Spacek <skim@cpan.org>';
 license 'bsd';
 name 'Error-Pure-Output-JSON';
 readme_from 'JSON.pm';
