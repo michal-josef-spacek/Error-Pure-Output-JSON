@@ -1,6 +1,7 @@
 TODO
 ====
 2. Resit chyby v JSON encode.
+Je potreba rict, jestli tohle muze nastat z Error::Pure.
 4.
 
 Applied
