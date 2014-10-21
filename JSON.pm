@@ -20,13 +20,13 @@ our $VERSION = 0.08;
 
 # JSON print of backtrace.
 sub err_json {
-	my $struct_r = shift;
+	my @errors = @_;
 	my $ret_json;
 	my $json = JSON->new;
 	if ($PRETTY) {
-		$ret_json = $json->pretty->encode($struct_r);
+		$ret_json = $json->pretty->encode(@errors);
 	} else {
-		$ret_json = $json->encode($struct_r);
+		$ret_json = $json->encode(@errors);
 	}
 	return $ret_json;
 }

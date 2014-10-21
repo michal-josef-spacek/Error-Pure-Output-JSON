@@ -1,10 +1,12 @@
 TODO
 ====
 2. Resit chyby v JSON encode.
-3. err_json by mela brat jako argument pole error struktur.
 4.
 
 Applied
 =======
 1. Dodelat testy.
 OK [20141001] skim
+
+3. err_json by mela brat jako argument pole error struktur.
+OK [20141022] skim
