@@ -16,9 +16,6 @@ VARIABLES
              JSON pretty output flag. Possible values are 0 or 1.
              Default value is 0.
 
-ERRORS
-     None.
-
 EXAMPLE1
      # Pragmas.
      use strict;
