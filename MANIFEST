@@ -21,3 +21,4 @@ t/Error-Pure-Output-JSON/00-use.t
 t/Error-Pure-Output-JSON/01-version.t
 t/Error-Pure-Output-JSON/02-pod_coverage.t
 t/Error-Pure-Output-JSON/03-pod.t
+t/Error-Pure-Output-JSON/04-err_json.t
