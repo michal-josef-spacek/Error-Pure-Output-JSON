@@ -16,7 +16,7 @@ Readonly::Array our @EXPORT_OK => qw(err_json);
 our $PRETTY = 0;
 
 # Version.
-our $VERSION = 0.08;
+our $VERSION = 0.09;
 
 # JSON print of backtrace.
 sub err_json {
@@ -201,6 +201,6 @@ BSD license.
 
 =head1 VERSION
 
-0.08
+0.09
 
 =cut
