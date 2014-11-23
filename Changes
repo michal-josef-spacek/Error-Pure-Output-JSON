@@ -1,3 +1,5 @@
+0.10
+
 0.09 2014-11-23T11:00:35+01:00
  - XXX Move JSON.pm in distribution to lib/Error/Pure/Output/JSON.pm due
    Module::Install requires command problem with JSON.pm, which isn't JSON

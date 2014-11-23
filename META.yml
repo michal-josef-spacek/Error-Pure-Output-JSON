@@ -35,4 +35,4 @@ resources:
   homepage: https://github.com/tupinek/Error-Pure-Output-JSON
   license: http://opensource.org/licenses/bsd-license.php
   repository: git://github.com/tupinek/Error-Pure-Output-JSON
-version: '0.09'
+version: '0.10'
