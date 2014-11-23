@@ -1,4 +1,7 @@
 0.09
+ - XXX Move JSON.pm in distribution to lib/Error/Pure/Output/JSON.pm due
+   Module::Install requires command problem with JSON.pm, which isn't JSON
+   module.
  - Update Module::Install to 1.14 version.
 
 0.08 2014-11-14T23:34:17+01:00
