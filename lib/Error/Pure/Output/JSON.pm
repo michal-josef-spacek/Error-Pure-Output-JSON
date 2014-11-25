@@ -6,7 +6,7 @@ use strict;
 use warnings;
 
 # Modules.
-use JSON qw(encode_json);
+use JSON;
 use Readonly;
 
 # Constants.
