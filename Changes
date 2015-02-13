@@ -1,6 +1,7 @@
 0.10
  - Remove obsolete code (encode_json).
  - Update LICENSE AND COPYRIGHT section in doc.
+ - Update copyright years.
 
 0.09 2014-11-23T11:00:35+01:00
  - XXX Move JSON.pm in distribution to lib/Error/Pure/Output/JSON.pm due
