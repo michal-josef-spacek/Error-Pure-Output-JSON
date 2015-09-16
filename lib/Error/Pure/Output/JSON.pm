@@ -182,8 +182,17 @@ L<Readonly>.
 
 =head1 SEE ALSO
 
-L<Error::Pure>,
-L<Error::Pure::Output::Text>.
+=over
+
+=item L<Task::Error::Pure>
+
+Install the Error::Pure modules.
+
+=item L<Error::Pure::Output::Text>
+
+Output subroutines for Error::Pure.
+
+=back
 
 =head1 REPOSITORY
 

@@ -1,4 +1,5 @@
 0.10
+ - Improve SEE ALSO section in doc.
  - Move author tests to xt/ directory.
  - Remove obsolete code (encode_json).
  - Update LICENSE AND COPYRIGHT section in doc.

@@ -121,7 +121,11 @@ DEPENDENCIES
     Exporter, JSON, Readonly.
 
 SEE ALSO
-    Error::Pure, Error::Pure::Output::Text.
+    Task::Error::Pure
+        Install the Error::Pure modules.
+
+    Error::Pure::Output::Text
+        Output subroutines for Error::Pure.
 
 REPOSITORY
     <https://github.com/tupinek/Error-Pure-Output-JSON>
