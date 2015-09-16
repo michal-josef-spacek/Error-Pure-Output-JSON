@@ -1,4 +1,5 @@
 0.10
+ - Move author tests to xt/ directory.
  - Remove obsolete code (encode_json).
  - Update LICENSE AND COPYRIGHT section in doc.
  - Update Module::Install to 1.16 version.

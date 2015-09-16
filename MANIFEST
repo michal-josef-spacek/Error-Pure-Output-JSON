@@ -2,6 +2,8 @@ Changes
 examples/ex1.pl
 examples/ex2.pl
 inc/Module/Install.pm
+inc/Module/Install/AuthorRequires.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
@@ -17,8 +19,8 @@ MANIFEST			This list of files
 META.yml
 README
 SIGNATURE
-t/Error-Pure-Output-JSON/00-use.t
-t/Error-Pure-Output-JSON/01-version.t
-t/Error-Pure-Output-JSON/02-pod_coverage.t
-t/Error-Pure-Output-JSON/03-pod.t
-t/Error-Pure-Output-JSON/04-err_json.t
+t/Error-Pure-Output-JSON/01-use.t
+t/Error-Pure-Output-JSON/02-version.t
+t/Error-Pure-Output-JSON/03-err_json.t
+xt/Error-Pure-Output-JSON/01-pod_coverage.t
+xt/Error-Pure-Output-JSON/02-pod.t
