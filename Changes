@@ -1,6 +1,7 @@
 0.10
  - Remove obsolete code (encode_json).
  - Update LICENSE AND COPYRIGHT section in doc.
+ - Update Module::Install to 1.16 version.
  - Update copyright years.
 
 0.09 2014-11-23T11:00:35+01:00
