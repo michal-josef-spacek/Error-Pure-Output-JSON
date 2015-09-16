@@ -16,7 +16,7 @@ Readonly::Array our @EXPORT_OK => qw(err_json);
 our $PRETTY = 0;
 
 # Version.
-our $VERSION = 0.10;
+our $VERSION = 0.11;
 
 # JSON print of backtrace.
 sub err_json {
@@ -211,6 +211,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.10
+0.11
 
 =cut
