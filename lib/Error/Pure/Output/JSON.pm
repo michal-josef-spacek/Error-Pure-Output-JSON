@@ -1,11 +1,9 @@
 package Error::Pure::Output::JSON;
 
-# Pragmas.
 use base qw(Exporter);
 use strict;
 use warnings;
 
-# Modules.
 use JSON;
 use Readonly;
 
@@ -15,7 +13,6 @@ Readonly::Array our @EXPORT_OK => qw(err_json);
 # Global variables.
 our $PRETTY = 0;
 
-# Version.
 our $VERSION = 0.11;
 
 # JSON print of backtrace.
@@ -73,11 +70,9 @@ Error::Pure::Output::JSON - Output JSON subroutines for Error::Pure.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::Output::JSON qw(err_json);
 
  # Fictional error structure.
@@ -112,11 +107,9 @@ Error::Pure::Output::JSON - Output JSON subroutines for Error::Pure.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Error::Pure::Output::JSON qw(err_json);
 
  # Set pretty output.

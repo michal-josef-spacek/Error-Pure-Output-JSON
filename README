@@ -17,11 +17,9 @@ VARIABLES
              Default value is 0.
 
 EXAMPLE1
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Error::Pure::Output::JSON qw(err_json);
 
      # Fictional error structure.
@@ -55,11 +53,9 @@ EXAMPLE1
      # {"msg":["FOO","KEY","VALUE"],"stack":[{"sub":"err","prog":"script.pl","args":"(2)","class":"main","line":1},{"sub":"eval {...}","prog":"script.pl","args":"","class":"main","line":20}]}
 
 EXAMPLE2
-     # Pragmas.
      use strict;
      use warnings;
 
-     # Modules.
      use Error::Pure::Output::JSON qw(err_json);
 
      # Set pretty output.
