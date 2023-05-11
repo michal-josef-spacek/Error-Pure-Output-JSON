@@ -196,7 +196,7 @@ Output subroutines for Error::Pure.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/Error-Pure-Output-JSON>
+L<https://github.com/michal-josef-spacek/Error-Pure-Output-JSON>
 
 =head1 AUTHOR
 
