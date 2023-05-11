@@ -13,7 +13,7 @@ Readonly::Array our @EXPORT_OK => qw(err_json);
 # Global variables.
 our $PRETTY = 0;
 
-our $VERSION = 0.11;
+our $VERSION = 0.12;
 
 # JSON print of backtrace.
 sub err_json {
@@ -209,6 +209,6 @@ BSD 2-Clause License
 
 =head1 VERSION
 
-0.11
+0.12
 
 =cut
