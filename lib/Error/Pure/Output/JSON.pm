@@ -70,6 +70,8 @@ Error::Pure::Output::JSON - Output JSON subroutines for Error::Pure.
 
 =head1 EXAMPLE1
 
+=for comment filename=err_json.pl
+
  use strict;
  use warnings;
 
@@ -106,6 +108,8 @@ Error::Pure::Output::JSON - Output JSON subroutines for Error::Pure.
  # {"msg":["FOO","KEY","VALUE"],"stack":[{"sub":"err","prog":"script.pl","args":"(2)","class":"main","line":1},{"sub":"eval {...}","prog":"script.pl","args":"","class":"main","line":20}]}
 
 =head1 EXAMPLE2
+
+=for comment filename=err_json_pretty_print.pl
 
  use strict;
  use warnings;
