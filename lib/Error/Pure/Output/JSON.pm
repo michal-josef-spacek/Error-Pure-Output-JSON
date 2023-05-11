@@ -200,13 +200,13 @@ L<https://github.com/michal-josef-spacek/Error-Pure-Output-JSON>
 
 =head1 AUTHOR
 
-Michal Špaček L<mailto:skim@cpan.org>
+Michal Josef Špaček L<mailto:skim@cpan.org>
 
 L<http://skim.cz>
 
 =head1 LICENSE AND COPYRIGHT
 
- © Michal Špaček 2013-2015
+ © Michal Josef Špaček 2013-2015
  BSD 2-Clause License
 
 =head1 VERSION
