@@ -43,6 +43,7 @@ Error::Pure::Output::JSON - Output JSON subroutines for Error::Pure.
 =head1 SYNOPSIS
 
  use Error::Pure::Output::JSON qw(err_json);
+
  print err_json(@errors);
 
 =head1 SUBROUTINES

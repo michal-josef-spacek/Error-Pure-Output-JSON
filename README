@@ -3,6 +3,7 @@ NAME
 
 SYNOPSIS
      use Error::Pure::Output::JSON qw(err_json);
+
      print err_json(@errors);
 
 SUBROUTINES
